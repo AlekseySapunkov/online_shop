@@ -13,4 +13,6 @@ app.add_middleware(
 @app.get("/")
 def read_root():
     return {"message": "Welcome to the API"}
-
+@app.get("/products")
+def read_products():
+    return {"message": "Welcome to the API"}
